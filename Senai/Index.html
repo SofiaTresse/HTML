@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--"nome" do link-->
+
+    <head>
+        <meta charset="UFT-8">
+        <meta name="'viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minha Página Incrível</title>
+        <!--Links para folhas de estilo ou scripts vão aqui-->
+        </head>
+        <body>
+        <header>
+            <h1>Bem-vindo à Minha Página!</h1> 
+            <p>Explore o incrível mundo que criamos para você.</p>
+        </header>
+        <main>
+            <p>Esta é uma linha.<br>Esta é outra linha.</p>
+            <p>Esta é a <mark>parte destacada</mark> do texto.</p>
+            <p>Texto da seção 1</p>
+            <hr>
+            <p>Texto da seção 2</p>
+            <p><small>Texto menor</small></p>
+            <p><big>Texto maior</big></p>
+            <blockquote>
+                <p>"A vida é o que acontece enquanto você está ocupado fazendo outros planos"</p>
+                <cite>John Lennon</cite>
+            </blockquote>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>País</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Carlos</td>
+                    <td>30</td>
+                    <td>Brasil</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>Portugal</td>
+                </tr>
+                <tr>
+                    <td><a href="/perfil/carlos">Carlos</a></td>
+                    <td>30</td>
+                    <td>Brasil</td>
+                </tr>
+            </table>
+            <img src="./fundo-bonito-ceu-noturno-700-29559401.jpg" alt="fundo bonito">
+                <!-- resto da pagina -->
+            <!--Seu conteúdo principal vai aqui-->
+            <!-- Fórmulario de Login-->
+             <form action="/processar-login" method="post">
+                <!-- Campos de Entrada-->
+                 <label for="usuario">Usuário:</label>
+                 <input type="text" id="usuario" name="usuario" required>
+
+                 <label for="senha">Senha:</label>
+                 <input type="password" id="senha" name="senha" required>
+
+                 <!-- Botão de Envio-->
+                  <button type="submit">Entrar</button>
+                  <label for="comentario">Comentário</label>
+                  <textarea id ="comentario" name="comentario" rows="4" cols="50"></textarea>
+                  <button type="submit">Enviar</button>
+                  <input type="reset" value="Limpar">
+                  <input type="checkbox" id="receber-noticias" name="receber-noticias" checked>
+                  <label for ="receber-noticias">Receber Notícias</label>
+                  <input type="radio" id="masculino" name="genero" value="masculino">
+                  <label for="masculino">Masculino</label>
+                  <input type="radio" id="feminino" name="genero" value="feminino">
+                  <label for="feminino">Feminino</label>
+
+                  <label for="pais">Selecione seu país:</label>
+                  <select id="pais" name="pais">
+                    <option value="brasil">Brasil</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="eua">Estados Unidos</option>
+                  </select>
+             </form>
+             <ul>
+                <li><a href="/produtos">Produtos</a></li>
+                <li><a href="/servicos">Serviços</a></li>
+                <li><a href="/suporte">Suporte</a></li>
+                </ul>
+                <p><strong>Importante:</strong> Preencha todos os campos obrigatórios.</p>
+                <p><em>Lembre-se de manter sua senha em segredo.</em></p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+<ol>
+ <li>Passo 1 </li>
+ <li>Passo 2</li>
+ <li>Passo 3</li>
+</ol>
+
+<ul>
+<li>Animal
+    <ul>
+<li>Mamífero</li>
+<li>Reptil</li>
+<li>Ave</li>
+</ul>
+</li>
+<li>Planta
+    <ul>
+        <li>Florífera</li>
+        <li>Árvore</li>
+        <li>Erva</li>
+    </ul>
+</li>
+</ul>
+<p>Clique aqui para escutar a diva Lana del Rey:</p>
+
+<!-- Adicionar Audio baixados no aparelho -->
+
+       <audio controls>
+ <source src="./Lana Del Rey - Brooklyn Baby (Official Audio) (320).mp3" type="audio/mp3">
+       </audio>
+<p></p>
+
+<!-- Adicionar Vídeo baixados no aparelho -->
+
+       <video width="480" height="320" controls>
+        <source src="./Lana Del Rey - brooklyn baby (720p).mp4" type="video/mp4">
+    </video>
+    <p>Video de mulher bonita!!</p>
+    <p></p>
+
+    <!-- Adicionar Vídeo direto de outras plataformas(ex:Youtube) -->
+     
+<iframe src="https://www.youtube.com/watch?v=kLbn61Z4LDI" width="560" height="315"
+frameborder="0" allowfullscreen></iframe>
+
+<p></p>
+<!--Fazer um "Desenho" no site-->
+<canvas id="meuCanvas" width="200" height="100" style="border:1px solid#d81212;"></canvas>
+<script>
+ var canvas = document.getElementById("meuCanvas");
+ var ctx = canvas.getContext("2d");
+ ctx.fillStyle = "#FF0000";
+ ctx.fillRect(10, 10, 50, 50);
+</script>
+<p></p>
+<!--Para colocar links-->
+<a href="mailto:0001067505@senaimgaluno.com.br">Contate-nos por email</a>
+<p></p>
+
+<!--Para colocar números-->
+<a href="tel:+5534991077749">Número de telefone 1</a>
+<p></p>
+<a href="https://wa.me/55telefone?text=oi_mundo"> Número de telefone por link</a>
+<p></p>
+<!--Para links em outra Janela-->
+<a href="https://www.doglife.com.br/blog/assets/post/gato-filhote-tudo-que-voce-precisa-saber-para-cuidar-bem-61aa5b4f5448461cf9e0a54b/filhote-capa.jpg.jpg" target="_blank">Abrir em Nova Janela</a>
+
+<!--Para grifar a palavra de alguma cor-->
+<style>
+.importante {
+color: rgb(255, 0, 0);
+font-weight: bold;
+}
+</style>
+<p class="importante">Este parágrafo é importante.</p>
+
+   </main>
+
+        <footer>
+        <p>&copy; 2024 Minha Página Incrível. Todos os direitos reservadoos.</p>
+    </footer>
+    <p>Última atualização:<time datetime="2024-01-15T08:00:00">15  de Janeiro de 2024</time></p>
+    <figure>
+        <img src="https://blog-static.petlove.com.br/wp-content/uploads/2017/07/adotar-um-gatinho-1.jpg" alt="Gatinho Feliz">
+        <figcaption>Gatinho Feliz</figcaption>
+    </figure>
+
+
+</body>
+</html>
