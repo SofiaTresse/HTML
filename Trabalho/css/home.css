@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    
+    }
+    
+    
+    body{
+    font-family: Arial, sans-serif;
+    background-color: #72b5f8 ; /*Cor solida*/
+    
+    background: radial-gradient( /*Cor Gradiente*/
+    circle,
+    #ffae008a,
+    #972dee8e
+    );/
+    }
+    
+    header{
+    background: hsla(0, 0%, 100%, 0.288);
+    color: #ffffff;
+    padding: 10px 0; 
+    }
+    .container-menu{
+        width: 80%;
+    margin: 0 auto;
+    overflow: hidden;    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+    .container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;    
+    }
+    
+    .logo{
+    float: left;
+    
+    width: 250px;
+    
+    }
+    
+    nav{
+    float: right;
+    margin-top: 10px;
+    transition: transform o.3s ease-in-out; /*Muda de Posição quando passar o mouse por cima*/
+    
+    }
+    
+    nav:hover{
+    transform: translateY(-10px); /*Muda de Posição quando passar o mouse por cima*/ 
+    
+    }
+    
+    nav ul{
+        list-style: none;
+        font-size: 25px;
+    }
+    
+    
+    nav ul li{
+        display: inline;
+        margin-left: 5px;
+    }
+    
+    nav ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        padding: 50px 60px;
+        
+    }
+    
+    nav ul li a:hover{
+    
+    background: fixed #9d97ff;
+    border-radius: 5px;
+    
+    }
+    
+    .quadro{
+    background: url('../images/gatinho.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    border: 20px #ffffff;
+    
+
+    
+    }
+    .quadrocontent{
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 100px;
+    }
+    
+    .cta-button{
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    }
+    
+    .cta-button:hover {
+    background: #ff97c8;
+
+    
+    }
+    
+    .features {
+     padding: 20px 0;
+    
+    }
+    
+    .feature {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    padding: 5px;
+    margin-bottom: 5px;
+    }
+    
+    .feature img{
+     max-width: 20%;
+    height: auto;
+    border-radius: 15px;
+    }
+
+
+    .rede
+    
+    
+    footer{
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background: radial-gradient(
+    circle,
+    #fdcc60,
+    #af02ff4d
+    );/*Gradiente radial em forma de círculo*/
+    
+    }
+    
+    
+    
